@@ -2,13 +2,15 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #ed213a;
 }
 
 #box {
     width: 100px;
     height: 100px;
-    background-color: #ccc;
     position: absolute;
     left: 200px;
     top: 200px;
+    background-image: url(images/deadpool.png);
+    background-size: contain;
 }
